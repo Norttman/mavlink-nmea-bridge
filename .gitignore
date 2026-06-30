@@ -1,0 +1,18 @@
+# Скомпилированные бинарники
+nmea_bridge
+nmea_bridge.exe
+*.o
+*.obj
+
+# Заголовки MAVLink (слишком большие для GitHub)
+mavlink/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Виртуальное окружение Python (если использовалось)
+.venv/
+__pycache__/
